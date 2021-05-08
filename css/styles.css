@@ -45,7 +45,7 @@ p {
   line-height: 2;
 }
 
-hr {
+.division-spacing {
   border-style: double;
   border-color: #e1e5ea;
   border-width: 6px;
@@ -90,6 +90,17 @@ a {
   margin-bottom: 0;
 }
 
+.spacing {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 30px auto;
+}
+
 .skill-row {
   width: 50%;
   text-align: left;
@@ -104,13 +115,13 @@ a {
 }
 
 .skill-2 {
-  width: 25%;
+  width: 24%;
   float: right;
   margin-left: 30px;
 }
 
 .skill-3 {
-  width: 25%;
+  width: 22%;
   float: left;
   margin-right: 30px;
 }
@@ -164,16 +175,6 @@ a {
 }
 
 /*################################################ ID SELECTORS #########################################*/
-
-#spacing {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 15%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 
 #name-h1 {
   color: #00adb5;
